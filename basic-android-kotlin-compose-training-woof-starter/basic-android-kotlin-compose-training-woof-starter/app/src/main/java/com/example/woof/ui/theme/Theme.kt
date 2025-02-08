@@ -128,7 +128,7 @@ fun WoofTheme(
 
 /**
  * Sets up edge-to-edge for the window of this [view]. The system icon colors are set to either
- * light or dark depending on whether the [darkTheme] is enabled or not.
+ * light or dark depending on wdynamicColorhether the [darkTheme] is enabled or not.
  */
 private fun setUpEdgeToEdge(view: View, darkTheme: Boolean) {
     val window = (view.context as Activity).window
