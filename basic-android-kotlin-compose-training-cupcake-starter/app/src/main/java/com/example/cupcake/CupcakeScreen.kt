@@ -75,9 +75,6 @@ fun CupcakeAppBar(
 
     TopAppBar(
         title = { Text(stringResource(currentScreen.title)) },
-        colors = TopAppBarDefaults.mediumTopAppBarColors(
-            containerColor = MaterialTheme.colorScheme.primaryContainer
-        ),
         modifier = modifier,
         navigationIcon = {
             if (canNavigateBack) {
